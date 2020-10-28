@@ -1,0 +1,35 @@
+{
+    "Days":
+    [
+        {
+            "Exercises":
+                [{ "Name": "Push-Up", "Unit": "rep", "TotalCount": 60, "InSeriesCount": 15 },
+                { "Name": "Chest training", "Unit": "", "TotalCount": 3, "InSeriesCount": 1 }]
+        },
+        {
+            "Exercises":
+                [{ "Name": "Squat", "Unit": "rep", "TotalCount": 100, "InSeriesCount": 20 },
+                { "Name": "Calf raises", "Unit": "rep", "TotalCount": 60, "InSeriesCount": 30 },
+                { "Name": "Lunges", "Unit": "rep", "TotalCount": 20, "InSeriesCount": 20 }]
+        },
+        {
+            "Exercises":
+                [{ "Name": "Plank", "Unit": "min", "TotalCount": 3, "InSeriesCount": 1 },
+                { "Name": "McKenzie Push-Up", "Unit": "rep", "TotalCount": 20, "InSeriesCount": 5 },
+                { "Name": "Chin-Ups", "Unit": "rep", "TotalCount": 20, "InSeriesCount": 5 },
+                { "Name": "Pull-Ups", "Unit": "rep", "TotalCount": 30, "InSeriesCount": 5 }]
+        },
+        {
+            "Exercises":
+                [{ "Name": "Squat", "Unit": "rep", "TotalCount": 100, "InSeriesCount": 20 },
+                { "Name": "Calf raises", "Unit": "rep", "TotalCount": 60, "InSeriesCount": 30 },
+                { "Name": "Lunges", "Unit": "rep", "TotalCount": 20, "InSeriesCount": 20 }]
+        },
+        {
+            "Exercises":
+                [{ "Name": "Pull-Ups", "Unit": "rep", "TotalCount": 30, "InSeriesCount": 5 },
+                { "Name": "Chest training", "Unit": "", "TotalCount": 3, "InSeriesCount": 1 },
+                { "Name": "Plank", "Unit": "min", "TotalCount": 3, "InSeriesCount": 1 }]
+        }
+    ]
+}

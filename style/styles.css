@@ -1,0 +1,39 @@
+:root {
+  --MainColor: #337df2;
+  --SecondaryColor: #5999ff;
+  --SecondaryColorLight: #b5d0fc;
+  --LightGrey: #e6e6e6;
+  --MidGrey: #a6a6a6;
+  --LightGreyTrans: #5c5c5c33;
+}
+
+.PageTitle {
+  font-size: 30px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.ExerciseTitle {
+  font-size: 40px;
+  margin-left: 20px;
+}
+.ExerciseProgress {
+  margin-left: 20px;
+}
+
+.ExerciseProgressButton {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border-radius: 5%;
+  background-color: var(--SecondaryColorLight);
+}
+
+.ExerciseProgressButton:hover {
+  background-color: var(--SecondaryColor);
+  cursor: pointer;
+}
+
+.ExerciseProgressButton.active {
+  background-color: var(--MainColor);
+}
