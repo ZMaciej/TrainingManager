@@ -3,6 +3,7 @@ class Day
     constructor()
     {
         this.Exercises = new Array();
+        this.Index = 0;
     }
 
     FromJson(json)
@@ -18,5 +19,10 @@ class Day
     ToJson()
     {
         return JSON.stringify(this);
+    }
+
+    SaveToCookie(name)
+    {
+        setCookie(name, this.ToJson());
     }
 }

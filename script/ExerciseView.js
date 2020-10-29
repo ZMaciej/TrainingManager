@@ -1,8 +1,9 @@
 class ExerciseView
 {
-    constructor(exercise)
+    constructor(exercise, day)
     {
         this.Model = exercise;
+        this.DayModel = day;
         this.ProgressButtonsList = new Array();
         this.CreateView();
         this.UpdateView();
@@ -56,6 +57,7 @@ class ExerciseView
             this.#setProgressLength(progress)
             this.Model.SeriesDone = progress;
         }
+        this.DayModel.SaveToCookie(CookieName);
     }
 
     #setProgressLength(length)

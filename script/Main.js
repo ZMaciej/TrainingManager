@@ -1,4 +1,4 @@
-
+var CookieName = "TrainingDay";
 window.onload = function ()
 {
     window.onresize = OnResize;
@@ -13,15 +13,29 @@ var _week;
 
 function setup()
 {
-    $.getJSON("data/TrainingPlan.json", function (json)
+    var dayIndex = (new Date().getDay() - 1) % 7;
+    var cookieDay = JSON.parse(getCookie(CookieName));
+    if (cookieDay != "" && cookieDay.Index == dayIndex)
     {
-        var dayIndex = (new Date().getDay() - 1) % 7;
-        _week = new Week().FromJson(json);
-        _week.Days[dayIndex].Exercises.forEach(ex =>
+        var day = new Day().FromJson(cookieDay);
+        createView(day);
+    }
+    else
+    {
+        $.getJSON("data/TrainingPlan.json", function (json)
         {
-            new ExerciseView(ex)
+            _week = new Week().FromJson(json);
+            createView(_week.Days[dayIndex]);
+            setCookie(CookieName, _week.Days[dayIndex].ToJson());
         });
-        setCookie("Training", _week.Days[dayIndex].ToJson());
+    }
+}
+
+function createView(day)
+{
+    day.Exercises.forEach(ex =>
+    {
+        new ExerciseView(ex, day);
     });
 }
 
