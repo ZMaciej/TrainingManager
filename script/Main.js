@@ -14,13 +14,20 @@ var _week;
 function setup()
 {
     var dayIndex = (new Date().getDay() - 1) % 7;
-    var cookieDay = JSON.parse(getCookie(CookieName));
-    if (cookieDay != "" && cookieDay.Index == dayIndex)
+    var loaded = false;
+    var cookieDay = getCookie(CookieName);
+    if (cookieDay != "")
     {
-        var day = new Day().FromJson(cookieDay);
-        createView(day);
+        var cookieDay = JSON.parse(cookieDay);
+        if (cookieDay.Index == dayIndex)
+        {
+            var day = new Day().FromJson(cookieDay);
+            createView(day);
+            loaded = true;
+        }
     }
-    else
+
+    if (!loaded)
     {
         $.getJSON("data/TrainingPlan.json", function (json)
         {
