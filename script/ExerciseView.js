@@ -28,6 +28,7 @@ class ExerciseView
         this.Exercise.append(this.Progress);
 
         $("#traingingsView").append(this.Exercise);
+        $(this.Exercise).after("</br>");
     }
 
     UpdateView()

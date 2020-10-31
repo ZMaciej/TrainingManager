@@ -9,23 +9,45 @@
 
 .PageTitle {
   font-size: 30px;
-  margin-left: 10px;
-  margin-top: 10px;
+  margin: 20px;
+  margin-bottom: 10px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 7px;
+  background-color: var(--LightGrey);
+  display: inline-block;
 }
+
 .ExerciseTitle {
-  font-size: 40px;
-  margin-left: 20px;
+  font-size: 32px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
+
 .ExerciseProgress {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.Exercise {
+  display: inline-block;
+  margin: 10px;
   margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  border-color: var(--LightGrey);
+  border-style: solid;
+  border-width: 3px;
+  padding: 10px;
 }
 
 .ExerciseProgressButton {
   display: inline-block;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   margin: 5px;
-  border-radius: 5%;
+  border-radius: 8%;
   background-color: var(--SecondaryColorLight);
 }
 
@@ -36,4 +58,7 @@
 
 .ExerciseProgressButton.active {
   background-color: var(--MainColor);
+}
+
+.TrainingsView {
 }

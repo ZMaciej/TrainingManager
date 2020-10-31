@@ -4,6 +4,7 @@ class Day
     {
         this.Exercises = new Array();
         this.Index = 0;
+        this.Name = "";
     }
 
     FromJson(json)

@@ -13,7 +13,7 @@ var _week;
 
 function setup()
 {
-    var dayIndex = (new Date().getDay() - 1) % 7;
+    var dayIndex = 1;//(new Date().getDay() - 1) % 7;
     var loaded = false;
     var cookieDay = getCookie(CookieName);
     if (cookieDay != "")
@@ -22,7 +22,7 @@ function setup()
         if (cookieDay.Index == dayIndex)
         {
             var day = new Day().FromJson(cookieDay);
-            createView(day);
+            new DayView(day);
             loaded = true;
         }
     }
@@ -32,18 +32,10 @@ function setup()
         $.getJSON("data/TrainingPlan.json", function (json)
         {
             _week = new Week().FromJson(json);
-            createView(_week.Days[dayIndex]);
+            new DayView(_week.Days[dayIndex]);
             setCookie(CookieName, _week.Days[dayIndex].ToJson());
         });
     }
-}
-
-function createView(day)
-{
-    day.Exercises.forEach(ex =>
-    {
-        new ExerciseView(ex, day);
-    });
 }
 
 /**

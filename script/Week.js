@@ -1,5 +1,6 @@
 class Week
 {
+    #dayNames = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
     constructor()
     {
         this.Days = new Array();
@@ -15,6 +16,7 @@ class Week
         {
             this.Days[i] = new Day().FromJson(this.Days[i]);
             this.Days[i].Index = i;
+            this.Days[i].Name = this.#dayNames[i];
         }
         return this;
     }
