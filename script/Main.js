@@ -13,7 +13,7 @@ var _week;
 
 function setup()
 {
-    var dayIndex = (new Date().getDay() - 1) % 7;
+    var dayIndex = (new Date().getDay() + 6) % 7;
     var loaded = false;
     var cookieDay = getCookie(CookieName);
     if (cookieDay != "")
