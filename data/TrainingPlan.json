@@ -10,7 +10,7 @@
             "Exercises":
                 [{ "Name": "Squat", "Unit": "rep", "TotalCount": 100, "InSeriesCount": 20 },
                 { "Name": "Calf raises", "Unit": "rep", "TotalCount": 60, "InSeriesCount": 30 },
-                { "Name": "Lunges", "Unit": "rep", "TotalCount": 20, "InSeriesCount": 20 }]
+                { "Name": "Lunges", "Unit": "rep", "TotalCount": 40, "InSeriesCount": 20 }]
         },
         {
             "Exercises":
@@ -23,7 +23,7 @@
             "Exercises":
                 [{ "Name": "Squat", "Unit": "rep", "TotalCount": 100, "InSeriesCount": 20 },
                 { "Name": "Calf raises", "Unit": "rep", "TotalCount": 60, "InSeriesCount": 30 },
-                { "Name": "Lunges", "Unit": "rep", "TotalCount": 20, "InSeriesCount": 20 }]
+                { "Name": "Lunges", "Unit": "rep", "TotalCount": 40, "InSeriesCount": 20 }]
         },
         {
             "Exercises":
