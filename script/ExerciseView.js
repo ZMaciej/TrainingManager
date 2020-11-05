@@ -43,6 +43,7 @@ class ExerciseView
             this.Progress.append(bt);
             var that = this;
             $(bt).addClass("ExerciseProgressButton");
+            $(bt).html((i + 1) * this.Model.InSeriesCount);
             $(bt).on("click", () => (that.SetProgress(i)));
         }
     }
@@ -63,12 +64,18 @@ class ExerciseView
 
     #setProgressLength(length)
     {
-        for (let i = 0; i < length; i++)
+        for (let i = 0; i < length - 1; i++)
         {
-            $(this.ProgressButtonsList[i]).addClass('active');
+            $(this.ProgressButtonsList[i]).addClass('activeLast');
+            $(this.ProgressButtonsList[i]).removeClass('active');
         }
+
+        $(this.ProgressButtonsList[length - 1]).removeClass('activeLast');
+        $(this.ProgressButtonsList[length - 1]).addClass('active');
+
         for (let i = length; i < this.Model.SeriesCount; i++)
         {
+            $(this.ProgressButtonsList[i]).removeClass('activeLast');
             $(this.ProgressButtonsList[i]).removeClass('active');
         }
     }
