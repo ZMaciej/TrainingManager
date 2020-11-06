@@ -19,7 +19,7 @@ class Week
             this.Days[i].Name = this.#dayNames[i];
         }
 
-        for (let i = this.Days.length - 1; i < 7; i++)
+        for (let i = this.Days.length; i < 7; i++)
         {
             this.Days[i] = new Day();
             this.Days[i].Index = i;
