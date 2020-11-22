@@ -26,4 +26,17 @@ class Day
     {
         setCookie(name, this.ToJson());
     }
+
+    IsCompleted()
+    {
+        var completed = true;
+        this.Exercises.forEach(exercise =>
+        {
+            if (!exercise.IsCompleted())
+            {
+                completed = false;
+            }
+        });
+        return completed;
+    }
 }

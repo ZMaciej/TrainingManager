@@ -24,6 +24,14 @@ function setup()
             var day = new Day().FromJson(cookieDay);
             new DayView(day);
             loaded = true;
+        } else if (cookieDay.Index == (dayIndex + 6) % 7) //cookieDay is previous day. Importat when you want to complete training from that day
+        {
+            var day = new Day().FromJson(cookieDay);
+            if (!day.IsCompleted())
+            {
+                new DayView(day);
+                loaded = true;
+            }
         }
     }
 

@@ -21,4 +21,8 @@ class Exercise
         this.TotalCount = this.SeriesCount * this.InSeriesCount;
         return this;
     }
+    IsCompleted()
+    {
+        return this.SeriesDone == this.SeriesCount;
+    }
 }
