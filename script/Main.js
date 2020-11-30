@@ -14,9 +14,10 @@ var _week;
 function setup()
 {
     var dayIndex = (new Date().getDay() + 6) % 7;
+    var reset = false;
     var loaded = false;
     var cookieDay = getCookie(CookieName);
-    if (cookieDay != "")
+    if (cookieDay != "" && !reset)
     {
         var cookieDay = JSON.parse(cookieDay);
         if (cookieDay.Index == dayIndex)
