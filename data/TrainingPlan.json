@@ -5,13 +5,13 @@
             "Exercises":
                 [{ "Name": "Push-Up", "Unit": "rep", "TotalCount": 60, "InSeriesCount": 20 },
                 { "Name": "Chest training", "Unit": "", "TotalCount": 3, "InSeriesCount": 1 },
-            	{"Name": "Shoulder press", "Unit":"rep", "TotalCount": 45, "InSeriesCount": 15}]
+            	{"Name": "Shoulder press", "Unit":"rep", "TotalCount": 60, "InSeriesCount": 15}]
         },
         {
             "Exercises":
                 [{ "Name": "Squat", "Unit": "rep", "TotalCount": 100, "InSeriesCount": 20 },
                 { "Name": "Calf raises", "Unit": "rep", "TotalCount": 60, "InSeriesCount": 30 },
-                { "Name": "Lunges", "Unit": "rep", "TotalCount": 40, "InSeriesCount": 20 }]
+                { "Name": "Hip thrust", "Unit": "rep", "TotalCount": 45, "InSeriesCount": 15 }]
         },
         {
             "Exercises":
@@ -24,7 +24,7 @@
             "Exercises":
                 [{ "Name": "Squat", "Unit": "rep", "TotalCount": 100, "InSeriesCount": 20 },
                 { "Name": "Calf raises", "Unit": "rep", "TotalCount": 60, "InSeriesCount": 30 },
-                { "Name": "Lunges", "Unit": "rep", "TotalCount": 40, "InSeriesCount": 20 }]
+                { "Name": "Hip thrust", "Unit": "rep", "TotalCount": 45, "InSeriesCount": 15 }]
         },
         {
             "Exercises":
