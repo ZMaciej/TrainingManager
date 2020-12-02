@@ -16,9 +16,10 @@
         {
             "Exercises":
                 [{ "Name": "Plank", "Unit": "min", "TotalCount": 3, "InSeriesCount": 1 },
-                { "Name": "McKenzie Push-Up", "Unit": "rep", "TotalCount": 20, "InSeriesCount": 5 },
+                { "Name": "Stiff Legged Deadlift", "Unit": "rep", "TotalCount": 60, "InSeriesCount": 15 },
+                { "Name": "Biceps curl", "Unit": "rep", "TotalCount": 30, "InSeriesCount": 10 },
                 { "Name": "Chin-Ups", "Unit": "rep", "TotalCount": 28, "InSeriesCount": 7 },
-                { "Name": "Pull-Ups", "Unit": "rep", "TotalCount": 36, "InSeriesCount": 6 }]
+                { "Name": "Pull-Ups", "Unit": "rep", "TotalCount": 42, "InSeriesCount": 7 }]
         },
         {
             "Exercises":
