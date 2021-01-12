@@ -3,9 +3,9 @@
     [
         {
             "Exercises":
-                [{ "Name": "Push-Up", "Unit": "rep", "TotalCount": 60, "InSeriesCount": 20 },
+                [{ "Name": "Push-Up", "Unit": "rep", "TotalCount": 80, "InSeriesCount": 20 },
                 { "Name": "Chest training", "Unit": "", "TotalCount": 3, "InSeriesCount": 1 },
-            	{"Name": "Shoulder press", "Unit":"rep", "TotalCount": 60, "InSeriesCount": 15}]
+            	{"Name": "Shoulder press", "Unit":"rep", "TotalCount": 80, "InSeriesCount": 20}]
         },
         {
             "Exercises":
