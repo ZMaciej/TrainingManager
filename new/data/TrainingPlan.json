@@ -1,0 +1,38 @@
+{
+    "Days":
+    [
+        {
+            "Exercises":
+                [{ "Name": "Push-Up", "Unit": "rep", "TotalCount": 80, "InSeriesCount": 20 },
+                { "Name": "Chest training", "Unit": "", "TotalCount": 3, "InSeriesCount": 1 },
+            	{"Name": "Shoulder press", "Unit":"rep", "TotalCount": 80, "InSeriesCount": 20}]
+        },
+        {
+            "Exercises":
+                [{ "Name": "Squat", "Unit": "rep", "TotalCount": 100, "InSeriesCount": 25 },
+                { "Name": "Calf raises", "Unit": "rep", "TotalCount": 60, "InSeriesCount": 20 },
+                { "Name": "Hip thrust", "Unit": "rep", "TotalCount": 60, "InSeriesCount": 20 }]
+        },
+        {
+            "Exercises":
+                [{ "Name": "Plank", "Unit": "min", "TotalCount": 3, "InSeriesCount": 1 },
+                { "Name": "Stiff Legged Deadlift", "Unit": "rep", "TotalCount": 80, "InSeriesCount": 20 },
+                { "Name": "Biceps curl", "Unit": "rep", "TotalCount": 30, "InSeriesCount": 10 },
+                { "Name": "Chin-Ups", "Unit": "rep", "TotalCount": 45, "InSeriesCount": 9 },
+                { "Name": "Pull-Ups", "Unit": "rep", "TotalCount": 40, "InSeriesCount": 8 }]
+        },
+        {
+            "Exercises":
+                [{ "Name": "Squat", "Unit": "rep", "TotalCount": 100, "InSeriesCount": 25 },
+                { "Name": "Calf raises", "Unit": "rep", "TotalCount": 60, "InSeriesCount": 20 },
+                { "Name": "Hip thrust", "Unit": "rep", "TotalCount": 60, "InSeriesCount": 20 }]
+        },
+        {
+            "Exercises":
+                [{ "Name": "Pull-Ups", "Unit": "rep", "TotalCount": 40, "InSeriesCount": 8 },
+                { "Name": "Push-Up", "Unit": "rep", "TotalCount": 80, "InSeriesCount": 20 },
+                { "Name": "Biceps curl", "Unit": "rep", "TotalCount": 30, "InSeriesCount": 10 },
+                { "Name": "Plank", "Unit": "min", "TotalCount": 3, "InSeriesCount": 1 }]
+        }
+    ]
+}
