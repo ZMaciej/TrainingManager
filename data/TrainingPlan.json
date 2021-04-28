@@ -19,11 +19,10 @@
         {
             "Exercises":
                 [{ "Name": "Push-Up", "Unit": "training", "TotalCount": 1, "InSeriesCount": 1 },
+                { "Name": "Pull-Ups", "Unit": "rep", "TotalCount": 30, "InSeriesCount": 6 },
                 { "Name": "Toes-To-Bar", "Unit": "rep", "TotalCount": 25, "InSeriesCount": 5 },
-                { "Name": "Stiff Legged Deadlift", "Unit": "rep", "TotalCount": 80, "InSeriesCount": 20 },
-                { "Name": "Biceps curl", "Unit": "rep", "TotalCount": 40, "InSeriesCount": 10 },
                 { "Name": "Chin-Ups", "Unit": "rep", "TotalCount": 35, "InSeriesCount": 7 },
-                { "Name": "Pull-Ups", "Unit": "rep", "TotalCount": 30, "InSeriesCount": 6 }]
+                { "Name": "Biceps curl", "Unit": "rep", "TotalCount": 40, "InSeriesCount": 10 }]
         },
         {
             "Exercises":
