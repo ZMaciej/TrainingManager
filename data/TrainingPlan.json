@@ -4,8 +4,8 @@
         {
             "Exercises":
                 [{ "Name": "Push-Up", "Unit": "training", "TotalCount": 1, "InSeriesCount": 1 },
-                { "Name": "Wide Push-Up", "Unit": "rep", "TotalCount": 40, "InSeriesCount": 8 },
-            	{"Name": "Pike Push-Up", "Unit":"rep", "TotalCount": 24, "InSeriesCount": 6},
+                { "Name": "Wide Push-Up", "Unit": "rep", "TotalCount": 45, "InSeriesCount": 9 },
+            	{"Name": "Pike Push-Up", "Unit":"rep", "TotalCount": 28, "InSeriesCount": 7},
             	{"Name": "Wall Handstand", "Unit":"sec", "TotalCount": 150, "InSeriesCount": 30},
             	{"Name": "Ring Hold", "Unit":"sec", "TotalCount": 120, "InSeriesCount": 30}
             ]
